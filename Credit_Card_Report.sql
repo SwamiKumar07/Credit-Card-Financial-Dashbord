@@ -1,4 +1,7 @@
+-- SQL Query to create and import data from csv files:
 
+-- 0. Create a database 
+CREATE DATABASE ccdb;
 -- 1. Create cc_details table
 
 CREATE TABLE cc_detail_temp (
@@ -63,6 +66,7 @@ COPY cust_detail_temp
 FROM 'F:\Credit_Card_Financial_Dashboard\customer.csv'
 DELIMITER E'\t'
 CSV HEADER;
+
 
 
 
